@@ -89,7 +89,7 @@ function reset() {
     started = false;
 }
 
-/* ✨ Sparkle cursor effect */
+/* Sparkle cursor effect */
 document.addEventListener("mousemove", (e) => {
     const spark = document.createElement("div");
     spark.className = "sparkle";
